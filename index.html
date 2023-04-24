@@ -100,7 +100,25 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://F2277A49-95C9-4B14-AE66-62526089F861// --><tw-storydata name="My test story!" startnode="2" creator="Tweego" creator-version="2.1.1" ifid="F2277A49-95C9-4B14-AE66-62526089F861" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Next Passage" tags="" position="100,100" size="100,100">The player just clicked a link to get here! Hello there.</tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="225,100" size="100,100">This is the first passage in a Twine game!
+	<!-- UUID://F2277A49-95C9-4B14-AE66-62526089F861// --><tw-storydata name="My test story!" startnode="2" creator="Tweego" creator-version="2.1.1" ifid="F2277A49-95C9-4B14-AE66-62526089F861" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* Side panel styles */
+#ui-bar {
+  padding: 5px;
+}
+
+#ui-bar-tray {
+  display: flex;
+  flex-direction: row-reverse;
+  position: static;
+}
+
+#ui-bar-toggle {
+  position: static;
+  border: 1px solid #444;
+}
+
+#ui-bar-history {
+  margin: auto;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Next Passage" tags="" position="100,100" size="100,100">The player just clicked a link to get here! Hello there.</tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="225,100" size="100,100">This is the first passage in a Twine game!
 
 [[This is a link|Next Passage]]</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
