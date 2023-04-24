@@ -7,9 +7,13 @@
 }
 
 :: StoryTitle
-My test story!
+Lunchables
 
 :: Start
-This is the first passage in a Twine game!
+It's the afternoon and you have a craving for something salty.
 
-[[This is a link|Next Passage]]
+---
+
+[[Go to the store -> store]]
+
+[[Go back to sleep -> sleep]]

@@ -1,0 +1,17 @@
+:: buyLunchables
+
+You return home and start devouring your Lunchables. You neatly stack your pyramid of cracker, bologna, and cheese, each component perfectly circular and slightly smaller than the previous one.
+
+You consume it whole, noticing that the cracker is sweeter than you remembered. It also isn't salty enough.
+
+You tear open the pack of chips you bought and try a chip. It's a lot saltier than you remember. You eat another chip. Then another. Then a few more. Soon you've eaten half the bag of chips, with each chip increasing your disappointment as the excessive saltiness becomes monotonous.
+
+Despite the meal not being what you expected, you no longer feel hungry and are satisfied.
+
+---
+
+[[Go back to sleep | sleepSated]]
+
+:: sleepSated
+
+With your hunger sated, your return to bed and envelope yourself in your warm, muted light blue blanket.
