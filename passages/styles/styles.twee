@@ -1,0 +1,20 @@
+:: UserStylesheet [stylesheet]
+/* Side panel styles */
+#ui-bar {
+  padding: 5px;
+}
+
+#ui-bar-tray {
+  display: flex;
+  flex-direction: row-reverse;
+  position: static;
+}
+
+#ui-bar-toggle {
+  position: static;
+  border: 1px solid #444;
+}
+
+#ui-bar-history {
+  margin: auto;
+}
