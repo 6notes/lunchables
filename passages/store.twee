@@ -1,6 +1,37 @@
-:: store
+:: styles [stylesheet]
+/*body.bolognaLunchmate {
+  background-image: url("https://cdn.britannica.com/97/123597-004-BD56FED2/Cheddar.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+body[data-tags="bolognaLunchmate"] {
+  background-image: url(../passages/assets/bolognaLunchmate.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+#passages{
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#passages a{
+  color: lightblue;
+}
+#passages a:hover{
+  filter: brightness(1.2);
+}
+body button{
+  padding: 5px;
+}
+button:hover{
+  filter: brightness(1.2);
+}
+
+:: store[bolognaLunchmate]
 You enter your grocery with laser focus. You need salt.
 
 ---
 
-[[Buy Lunchables and chips -> buyLunchables]]
+<button><a data-passage="buyLunchables">Buy Lunchables and chips</a></button>
