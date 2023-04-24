@@ -1,7 +1,11 @@
 # Lunchables (WIP)
 
-Story that I will be using to demonstrate some features. I want to explore css
-changes, inventory, item gates, and randomly generated content.
+Story that I will be using to demonstrate some features. I want to explore:
+
+- [x] css/UI changes/background images
+- [ ] inventory
+- [ ] item gates
+- [ ] randomly generated content
 
 # Local testing
 
